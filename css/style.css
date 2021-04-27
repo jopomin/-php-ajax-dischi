@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    word-wrap: break-word;
+}
+
+body {
+/*     background: #1db954; */
+    background: #211e2c;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    height: 100px;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+#logo {
+    height: 100%;
+    margin-right: 50px;
+}
+
+#logo img {
+    height: 100%;
+}
+
+#search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#src_box {
+    padding: 3px 8px;
+}
+
+#src_btn {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#src_btn i {
+    font-size: 20px;
+    color: #1db954;
+    margin-left: 20px;
+}
+
+.main_container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#collection {
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.disc {
+    width: 320px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 30px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.disc img {
+    width: 100%;
+}
+
+h2 {
+    color: #1db954;
+    font-size: 22px;
+    margin: 30px 0;
+}
+
+.author {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.year {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+
+
+
+

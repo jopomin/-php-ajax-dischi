@@ -16,26 +16,27 @@
 <body>
     <header>
         <div id="logo">
-            <img src="img/logo.png" alt="Logo Spotify">
-            <h1>Spotify</h1>
+            <img src="img/logo-green.svg" alt="Logo Spotify">
         </div>
         <div id="search">
             <input type="text" id="src_box">
             <a id="src_btn">
-                <i class="fas fa-clock"></i>
+                <i class="fas fa-search"></i>
             </a>
         </div>
     </header>
     <main>
         <div class="main_container">
-        <?php foreach ($database as $data) { ?>
-                <div class="disc">
-                    <img src="<?php echo $data['poster'];?>">
-                    <h2><?php echo $data['title'];?></h2>
-                    <p class="author"><?php echo $data['author'];?></p>
-                    <p class="year"><?php echo $data['year'];?></p>
-                </div>
-         <?php }; ?>              
+            <div id="collection">
+                <?php foreach ($database as $data) { ?>
+                        <div class="disc">
+                            <img src="<?php echo $data['poster'];?>">
+                            <h2><?php echo $data['title'];?></h2>
+                            <p class="author"><?php echo $data['author'];?></p>
+                            <p class="year"><?php echo $data['year'];?></p>
+                        </div>
+                 <?php }; ?>              
+            </div>
         </div>
     </main>
     <footer></footer>
